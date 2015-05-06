@@ -1,0 +1,6 @@
+C:\Users\Jacob\Documents\Android\SmartCoffee\Application\build\intermediates\classes\debug
+C:\Users\Jacob\Documents\Android\SmartCoffee\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-47012b3a415333e321125ee4222af64863af0d1f.jar
+C:\Users\Jacob\Documents\Android\SmartCoffee\Application\build\intermediates\pre-dexed\debug\classes-87b393cdbb32c7b7f857b680ba56fb65ad4f6e1c.jar
+C:\Users\Jacob\Documents\Android\SmartCoffee\Application\build\intermediates\pre-dexed\debug\classes-9024ef4f17333d59fd0d9397db185a6d5b335d45.jar
+C:\Users\Jacob\Documents\Android\SmartCoffee\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-7302370818618b3da9433dff7d85585594304343.jar
+C:\Users\Jacob\Documents\Android\SmartCoffee\Application\build\intermediates\pre-dexed\debug\classes-f855ce9184a275bea3101ad1807f821ebd1d3f5f.jar

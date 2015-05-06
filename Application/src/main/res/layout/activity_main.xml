@@ -1,0 +1,88 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/sample_main_layout">
+
+    <ScrollView
+          style="@style/Widget.SampleMessageTile"
+          android:layout_width="match_parent"
+          android:layout_height="180dp"
+        android:fillViewport="false"
+        android:layout_row="0"
+        android:layout_column="1">
+
+        <TextView
+              style="@style/Widget.SampleMessage"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="@dimen/horizontal_page_margin"
+              android:paddingRight="@dimen/horizontal_page_margin"
+              android:paddingTop="@dimen/vertical_page_margin"
+              android:paddingBottom="@dimen/vertical_page_margin"
+              android:text="@string/intro_message"
+         />
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <NumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPicker"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:baselineAligned="false"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cupText"
+            android:text="@string/cups"
+            android:textAlignment="center"
+            android:typeface="sans"
+            android:layout_row="2"
+            android:layout_column="4"
+            android:singleLine="false"
+            android:textSize="20dp"
+            style="@style/CardView"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brew!"
+            android:id="@+id/bt_brew"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:textSize="50dp"
+            android:layout_columnSpan="4"
+            android:layout_span="4"
+            android:layout_gravity="center_horizontal"
+            android:onClick="startBrew" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
