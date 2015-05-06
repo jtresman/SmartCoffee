@@ -1,8 +1,8 @@
-Android BluetoothChat Sample
+Smart Coffee Maker based on the 
 ===================================
 
-This sample shows how to implement two-way text chat over Bluetooth between two Android devices, using
-all the fundamental Bluetooth API capabilities.
+This project is based on the Android Chat Sample Project. It is used to control a Smart Coffee maker that was made for
+ECEN 3360 Digital Design Lab. 
 
 Introduction
 ------------
