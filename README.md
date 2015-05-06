@@ -4,11 +4,6 @@ Smart Coffee Maker based on the
 This project is based on the Android Chat Sample Project. It is used to control a Smart Coffee maker that was made for
 ECEN 3360 Digital Design Lab. 
 
-Introduction
-------------
-
-
-
 Pre-requisites
 --------------
 
